@@ -1,0 +1,64 @@
+main{
+    margin-left:0px;
+    margin-top: 20px;
+}
+html{
+    margin:0px;
+}
+#about-name{
+    font-size: 40px;
+}
+.about-content{
+    width: 520px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact-content{
+    width: 520px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+ text-align: center;
+}
+.contact-content .contact-info{
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact-content ul{
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+  
+}
+.contact-content ul li{
+    padding: 0;
+    margin: 20px;
+}
+
+@media only screen and (max-width:600px){
+    main{
+        margin-left:0px;
+        margin-top: 40px;
+    }
+    html{
+        margin:0px;
+    }
+    .about-content{
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-content{
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    h1{
+     text-align: center;
+    }
+
+
+}

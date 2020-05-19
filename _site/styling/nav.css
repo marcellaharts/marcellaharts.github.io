@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    flex-direction: column;
+}
+header img{
+    height :80px;
+    width: 97.43px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header nav{
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+header ul{
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    list-style: none;
+}
+header li{
+    margin: 20px;
+}
+header hr{
+    
+margin: 0;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+border-width: 1px;
+border-color: black;
+
+}
+header a{
+    text-decoration: none;
+    transition: 0.5s ease;
+
+}
+
+header a:hover{
+    font-weight: bold;
+}
