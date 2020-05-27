@@ -1,7 +1,7 @@
 ---
 layout: post
 author: muna
-image: /assets/doubt.jpg
+image: /assets/freshly-old-love.png
 readtime: 1 min read
 ---
 ### "Freshly Old Love" 

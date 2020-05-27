@@ -1,7 +1,7 @@
 ---
 layout: post
 author: muna
-image: /assets/first_kiss.jpg
+image: /assets/loves-crimson.png
 readtime: 1 min read
 ---
 ### "Loves Crimson" by Sheba Marcelah
