@@ -2,23 +2,21 @@
 layout: bloglayout
 title: Blog
 ---
+{% for post in site.posts %}
 
-<div class="cards-layout">
-  {% for post in site.posts %}
-  
-  <a class="card" href="{{post.url}}"> 
-      <div class="card-image">
-        <img src="{{post.image}}">
-      </div>
+<ion-card>
+  <a href="{{post.url}}" style="text-decoration: none;">
+    <div class="card-image">
+      <img src="{{post.image}}">
+    </div>
+    <ion-card-header>
+      <ion-card-subtitle>{{ post.date | date_to_string }} - {{ post.readtime }}</ion-card-subtitle>
+      <ion-card-title>{{post.title}}</ion-card-title>
+    </ion-card-header>
+ 
+  </a>
+</ion-card>
+{% endfor %}
 
-      <div class="card-caption">
-        <h2 class="card-title">{{post.title }}</h2>
-        <p class="card-excerpt">{{ post.date | date_to_string }} - {{ post.readtime }}</p>
-        
-      
-      
-      </div>
-      <hr>
-  </a>  
-  {% endfor %}
-</div>
+<br>
+<br>
