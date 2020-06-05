@@ -2,48 +2,65 @@
 ---
 <!DOCTYPE html>
 <html lang=en>
-  <head>
-  
+
+<head>
+
   {% include head.html %}
-    
-      <link rel="stylesheet" href="/styling/nav.css">
-      <link rel="stylesheet" href="/styling/about.css">
 
-  </head>
+  <link rel="stylesheet" href="/styling/nav.css">
+  <link rel="stylesheet" href="/styling/about.css">
 
-  <body>
-        
+</head>
 
-{% include about_header.html %}
+<body>
+  <ion-app>
 
-<main>
-  <section class="about-section" >
-   <h1 id="about-name">Sheba Marcelah</h1>
-    <div class="about-content">
-      
-      <h1>About me</h1>
-     <p>Hello there! Welcome to my blog. </p>
-      <p>Let me tell you about myself. I am a writer based in Nairobi, Kenya , with a passion for poetry .</p>
-       <p>I love reading them, listening to them , singing them, and on rare occassions you may find me engaged in a live narration.</p> 
-       <p>It's my hope that as you read through the lines , you may enjoy reading as I did writing.</p>
+    {% include about_header.html %}
 
-    </div>
+    <ion-content>
+      <ion-card style="box-shadow: none !important;color: black;">
+        <ion-text>
+          <h1 style="  font-size: 40px;text-align: center;">Sheba Marcelah</h1>
 
- 
-  </section>
- <section class="contact-me">
-   <div class="contact-content">
-   <h1>Contact me</h1>
-   <p>If you would like to work with me on something , get your poem featured on this platform or just chat, look me up in one of this platforms.
-  </p>
-  <div class="contact-info">
-    <ul> 
-      <li><a href="https://twitter.com/login" style="color: black;">Twitter</a></li>
-      <li><a href="https://www.instagram.com/accounts/login/?next=%2F&source=logged_out_half_sheet" style="color: black;">Instagram</a></li>
-    </ul>
-  </div>
-  </div>
- </section>
-</main>
-    </body>
+          <h1 style="text-align: center;">About me</h1>
+          <ion-card-content>
+            Hello there! Welcome to my blog.
+            Let me tell you about myself. I am a writer based in Nairobi, Kenya , with a passion for poetry .
+            I love reading them, listening to them , singing them, and on rare occassions you may find me engaged in a
+            live narration.
+            It's my hope that as you read through the lines , you may enjoy reading as I did writing.
+          </ion-card-content>
+
+
+
+        </ion-text>
+
+        <h1 style="text-align: center;">Contact me</h1>
+        <ion-card-content>
+          If you would like to work with me on something , get your poem featured on this platform or just chat,
+          look
+          me up in one of this platforms.
+
+          <br>
+          <br>
+          <ion-segment>
+            <ion-segment-button onclick="openTwitter()">
+              <ion-icon name="logo-twitter" style="color: black;font-size: 30px;"></ion-icon>
+            </ion-segment-button>
+
+            <ion-segment-button onclick="openInstagram()">
+              <ion-icon name="logo-instagram" style="color: black;font-size: 30px;"></ion-icon>
+            </ion-segment-button>
+
+            <ion-segment-button onclick="openYoutube()">
+              <ion-icon name="logo-youtube" style="color: black;font-size: 30px;"></ion-icon>
+            </ion-segment-button>
+          </ion-segment>
+        </ion-card-content>
+      </ion-card>
+    </ion-content>
+  </ion-app>
+  <script src="/scripting/about.js"></script>
+</body>
+
 </html>
