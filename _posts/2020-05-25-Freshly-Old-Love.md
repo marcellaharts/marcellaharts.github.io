@@ -1,6 +1,6 @@
 ---
 layout: post
-author: muna
+author: shebah
 image: /assets/freshly-old-love.png
 readtime: 1 min read
 ---
