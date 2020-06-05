@@ -4,7 +4,6 @@ author: muna
 image: /assets/first_kiss.jpg
 readtime: 1 min read
 ---
-### "The First Time We Kissed" by Kelly Roper
 
 Nervously I stood there under the porch light
 

@@ -4,7 +4,6 @@ author: muna
 image: /assets/doubt.jpg
 readtime: 1 min read
 ---
-### "Endless Self-Doubt" by Kelly Roper
 
 Am I good enough?
 

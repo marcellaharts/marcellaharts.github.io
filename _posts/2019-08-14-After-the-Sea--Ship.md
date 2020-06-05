@@ -4,7 +4,6 @@ author: muna
 image: /assets/sail_ship.jpg
 readtime: 1 min read
 ---
-### "After the Sea-Ship" by Walt Whitman
 
 After the Sea-Ship-after the whistling winds;
 

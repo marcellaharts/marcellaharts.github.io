@@ -1,10 +1,21 @@
 ---
 layout: article
 ---
-<div >
-    <img src="{{page.image}}">    
-</div>
-<h1 class="title">{{ page.title }} </h1>
-<p class="caption">{{ page.date | date_to_string }} - {{ page.author }} - {{ page.readtime }}</p>
-<br>
-{{ content }}
+
+<ion-card style="box-shadow: none !important;color: black;">
+    <div >
+        <img src="{{page.image}}">    
+    </div>
+    <ion-card-header>
+        <ion-card-subtitle>{{ page.date | date_to_string }} - {{ page.author }} - {{ page.readtime }}</ion-card-subtitle>
+        <ion-card-title>{{ page.title }} </ion-card-title>
+      </ion-card-header>
+
+
+<ion-card-content>
+<ion-text >
+    {{ content }}
+</ion-text>
+</ion-card-content>
+
+</ion-card>

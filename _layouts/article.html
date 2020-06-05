@@ -2,27 +2,30 @@
 ---
 <!DOCTYPE html>
 <html lang=en>
-  <head>
-   
-    {% include head.html %}
 
-      <link rel="stylesheet" href="/styling/nav.css">
-      <link rel="stylesheet" href="/styling/article.css">
+<head>
+
+  {% include head.html %}
+
+  <link rel="stylesheet" href="/styling/nav.css">
 
 
-  </head>
+</head>
 
-  <body>
-        
-        
-                
+<body>
+  <ion-app>
 
     {% include blog_header.html %}
-  <section >
-  
-  {{content}}
+    
+    <ion-content>
 
-  </section>
+      {{content}}
 
-    </body>
+    </ion-content>
+
+
+    
+  </ion-app>
+</body>
+
 </html>

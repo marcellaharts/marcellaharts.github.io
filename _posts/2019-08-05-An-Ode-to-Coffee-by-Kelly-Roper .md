@@ -4,7 +4,6 @@ author: muna
 image: /assets/cofee.jpg
 readtime: 1 min read
 ---
-### "An Ode to Coffee" by Kelly Roper
 
 Beautiful brown liquid steaming in my cup,
 

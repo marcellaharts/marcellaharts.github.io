@@ -5,7 +5,6 @@ image: /assets/fog.jpg
 readtime: 1 min read
 ---
 
-### "Fog" by Carl Sandburg
 
 The fog comes
 

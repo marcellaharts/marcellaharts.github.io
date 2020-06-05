@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang=en>
-  <head>
-   
-    <meta charset="UTF-8">
+
+<head>
+
+  <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="author" content="Sheba Marcellah">
@@ -12,16 +13,13 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
 <title>marcellah arts</title>
 
-      <link rel="stylesheet" href="/styling/nav.css">
-      <link rel="stylesheet" href="/styling/article.css">
+  <link rel="stylesheet" href="/styling/nav.css">
 
 
-  </head>
+</head>
 
-  <body>
-        
-        
-                
+<body>
+  <ion-app>
 
     
 <header>
@@ -36,17 +34,22 @@
     </nav> 
          
 </header>
-  <section >
-  
-  <div >
-    <img src="/assets/doubt.jpg">    
-</div>
-<h1 class="title">Endless Self Doubt  By Kelly roper </h1>
-<p class="caption">02 Jul 2019 - muna - 1 min read</p>
-<br>
-<h3 id="endless-self-doubt-by-kelly-roper">“Endless Self-Doubt” by Kelly Roper</h3>
+    
+    <ion-content>
 
-<p>Am I good enough?</p>
+      <ion-card style="box-shadow: none !important;color: black;">
+    <div >
+        <img src="/assets/doubt.jpg">    
+    </div>
+    <ion-card-header>
+        <ion-card-subtitle>02 Jul 2019 - muna - 1 min read</ion-card-subtitle>
+        <ion-card-title>Endless Self Doubt  By Kelly roper </ion-card-title>
+      </ion-card-header>
+
+
+<ion-card-content>
+<ion-text >
+    <p>Am I good enough?</p>
 
 <p>I’m not really sure.</p>
 
@@ -64,9 +67,16 @@
 
 <p>And even if they truly love it, I’ll still wonder if it’s good enough</p>
 
+</ion-text>
+</ion-card-content>
+
+</ion-card>
+
+    </ion-content>
 
 
-  </section>
+    
+  </ion-app>
+</body>
 
-    </body>
 </html>

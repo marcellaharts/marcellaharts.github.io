@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang=en>
-  <head>
-   
-    <meta charset="UTF-8">
+
+<head>
+
+  <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="author" content="Sheba Marcellah">
@@ -12,16 +13,13 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
 <title>marcellah arts</title>
 
-      <link rel="stylesheet" href="/styling/nav.css">
-      <link rel="stylesheet" href="/styling/article.css">
+  <link rel="stylesheet" href="/styling/nav.css">
 
 
-  </head>
+</head>
 
-  <body>
-        
-        
-                
+<body>
+  <ion-app>
 
     
 <header>
@@ -36,17 +34,22 @@
     </nav> 
          
 </header>
-  <section >
-  
-  <div >
-    <img src="/assets/cofee.jpg">    
-</div>
-<h1 class="title">An Ode To Coffee By Kelly Roper  </h1>
-<p class="caption">05 Aug 2019 - muna - 1 min read</p>
-<br>
-<h3 id="an-ode-to-coffee-by-kelly-roper">“An Ode to Coffee” by Kelly Roper</h3>
+    
+    <ion-content>
 
-<p>Beautiful brown liquid steaming in my cup,</p>
+      <ion-card style="box-shadow: none !important;color: black;">
+    <div >
+        <img src="/assets/cofee.jpg">    
+    </div>
+    <ion-card-header>
+        <ion-card-subtitle>05 Aug 2019 - muna - 1 min read</ion-card-subtitle>
+        <ion-card-title>An Ode To Coffee By Kelly Roper  </ion-card-title>
+      </ion-card-header>
+
+
+<ion-card-content>
+<ion-text >
+    <p>Beautiful brown liquid steaming in my cup,</p>
 
 <p>Becoming a muddy river as I stir in the cream.</p>
 
@@ -58,9 +61,16 @@
 
 <p>Tomorrow morning we’ll do it all again my friend.</p>
 
+</ion-text>
+</ion-card-content>
+
+</ion-card>
+
+    </ion-content>
 
 
-  </section>
+    
+  </ion-app>
+</body>
 
-    </body>
 </html>
