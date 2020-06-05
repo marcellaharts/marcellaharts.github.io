@@ -10,5 +10,5 @@ function openInstagram() {
 
 //youtube
 function openYoutube() {
-    window.open("https://youtube.com")
+    window.open("https://www.youtube.com/channel/UCaZx9ZPpZL_z5rg0_BCsb8g")
 }
