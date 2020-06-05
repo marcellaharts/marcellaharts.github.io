@@ -3,24 +3,30 @@
 
 <!DOCTYPE html>
 <html lang=en>
-  <head>    
-    {% include head.html %}
 
-      <link rel="stylesheet" href="/styling/nav.css">
-      <link rel="stylesheet" href="/styling/index.css">
+<head>
+  {% include head.html %}
 
-  </head>
+  <link rel="stylesheet" href="/styling/nav.css">
+  <link rel="stylesheet" href="/styling/index.css">
 
-  <body>
+</head>
 
+<body>
+  <ion-app>
     {% include work_header.html %}
-<main>
-  <div id="intro-block">
-    <p id="intro">Am a prolific writer and poet striving to be better. My mission is to help people understand and appreciate the world. Here are some of my top picks. </p>
+    <ion-content>
+      <ion-card style="box-shadow: none !important;color: black;">
+        <ion-card-content>
+          Am a prolific writer and poet striving to be better. My mission is to help people understand and
+          appreciate the world. Here are some of my top picks.
+        </ion-card-content>
+      </ion-card>
 
-  </div>
-  {{content}}
+      {{content}}
+    </ion-content>
 
-</main>
-    </body>
+  </ion-app>
+</body>
+
 </html>
